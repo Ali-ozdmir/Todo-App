@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  margin: 10px 20px;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+  background-color: rgb(149, 66, 66);
+}
+
+header {
+  color: rgb(46, 21, 21);
+  margin-top: 20px;
+  font-size: 25px;
+  text-align: center;
+}
+
+#addTodoInput {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: rgb(250, 243, 243);
+}
+
+.todoList {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 15px;
+}
+
+.todoList #addTodoInput {
+  padding: 10px 20px;
+  border: 3px solid;
+}
+
+button:hover {
+  background-color: rgb(155, 212, 220);
+  color: #7f0606;
+}
+.todoList .singleTodo {
+  cursor: pointer;
+}
+
+.inputBox {
+  width: 100%;
+}
